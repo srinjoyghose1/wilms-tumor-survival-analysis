@@ -1,0 +1,11 @@
+gene,pathway,pdmr_focus,endpoint,n_altered,n_wildtype,events_altered,events_wildtype,median_altered_months,median_wildtype_months,HR,CI_lower,CI_upper,cox_p,significant,covariates_used,formatted_result,status
+ALL_PRIMARY_OR,All Primary Pathway Genes,False,EFS,44,608,34.0,177.0,9.9,NR,4.209,2.895,6.121,0.0,True,ALTERED+AGE,"HR = 4.21 [2.89–6.12], p < 0.001",completed
+MYCN_SIX_OR,Transcription + Progenitor Axis,False,EFS,23,629,18.0,193.0,10.5,NR,3.783,2.313,6.188,0.0,True,ALTERED+AGE,"HR = 3.78 [2.31–6.19], p < 0.001",completed
+TP53_MDM4_MDM2_OR,Cell Cycle + p53 Axis,True,OS,21,631,10.0,104.0,NR,NR,3.554,1.85,6.828,0.00014,True,ALTERED+AGE,"HR = 3.55 [1.85–6.83], p < 0.001",completed
+ALL_PRIMARY_OR,All Primary Pathway Genes,False,OS,44,608,19.0,95.0,NR,NR,3.375,2.058,5.536,1e-06,True,ALTERED+AGE,"HR = 3.38 [2.06–5.54], p < 0.001",completed
+MYCN_SIX_OR,Transcription + Progenitor Axis,False,OS,23,629,10.0,104.0,NR,NR,3.273,1.699,6.307,0.000394,True,ALTERED+AGE,"HR = 3.27 [1.70–6.31], p < 0.001",completed
+TP53_MDM4_MDM2_OR,Cell Cycle + p53 Axis,True,EFS,21,631,13.0,198.0,14.2,NR,2.338,1.33,4.108,0.003158,True,ALTERED+AGE,"HR = 2.34 [1.33–4.11], p = 0.003",completed
+DROSHA_DGCR8_OR,RNA Processing Axis,False,EFS,1,651,,,,,,,,,,,,"skipped (events_altered=1, events_wildtype=210; gate=10 events/arm)"
+DROSHA_DGCR8_OR,RNA Processing Axis,False,OS,1,651,,,,,,,,,,,,"skipped (events_altered=0, events_wildtype=114; gate=10 events/arm)"
+WNT_AXIS_OR,WNT Axis,False,EFS,9,643,,,,,,,,,,,,"skipped (events_altered=9, events_wildtype=202; gate=10 events/arm)"
+WNT_AXIS_OR,WNT Axis,False,OS,9,643,,,,,,,,,,,,"skipped (events_altered=3, events_wildtype=111; gate=10 events/arm)"

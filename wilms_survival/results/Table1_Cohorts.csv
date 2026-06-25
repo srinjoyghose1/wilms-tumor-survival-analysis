@@ -1,0 +1,2 @@
+Cohort,Disease Type,Study ID,N patients,N with EFS data,EFS events (n),N with OS data,OS events (n),Primary endpoint
+"Pediatric Wilms' Tumor (TARGET, 2018)",Wilms' Tumor (Nephroblastoma),wt_target_2018_pub,652,652,211,652,114,EFS

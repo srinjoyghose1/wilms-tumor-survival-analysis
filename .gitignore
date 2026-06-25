@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.pyc
+.DS_Store
+.env
+
+# Raw API downloads can be re-fetched; exclude to keep repo lightweight
+wilms_survival/data/
+
+# Exclude large PDFs if preferred (HTML report embeds plots already)
+# wilms_survival/plots/

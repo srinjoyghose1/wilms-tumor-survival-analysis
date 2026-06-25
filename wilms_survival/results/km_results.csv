@@ -1,0 +1,43 @@
+gene,pathway,pdmr_focus,endpoint,n_altered,n_wildtype,events_altered,events_wildtype,median_altered_months,median_wildtype_months,logrank_p,significant,status
+MYCN_SIX_OR,Transcription + Progenitor Axis,False,EFS,23,629,18.0,193.0,10.5,NR,0.0,True,completed
+ALL_PRIMARY_OR,All Primary Pathway Genes,False,EFS,44,608,34.0,177.0,9.9,NR,0.0,True,completed
+ALL_PRIMARY_OR,All Primary Pathway Genes,False,OS,44,608,19.0,95.0,NR,NR,0.0,True,completed
+TP53_MDM4_MDM2_OR,Cell Cycle + p53 Axis,False,OS,21,631,10.0,104.0,NR,NR,1.1e-05,True,completed
+MYCN_SIX_OR,Transcription + Progenitor Axis,False,OS,23,629,10.0,104.0,NR,NR,3.1e-05,True,completed
+TP53_MDM4_MDM2_OR,Cell Cycle + p53 Axis,False,EFS,21,631,13.0,198.0,14.2,NR,0.001226,True,completed
+TP53,Cell Cycle,False,EFS,15,637,,,,,,,"skipped (n_altered=15, n_wildtype=637; gate=20)"
+TP53,Cell Cycle,False,OS,15,637,,,,,,,"skipped (n_altered=15, n_wildtype=637; gate=20)"
+MYCN,Transcription Reg,False,EFS,18,634,,,,,,,"skipped (n_altered=18, n_wildtype=634; gate=20)"
+MYCN,Transcription Reg,False,OS,18,634,,,,,,,"skipped (n_altered=18, n_wildtype=634; gate=20)"
+SIX1_SIX2,Transcription Reg (combined),False,EFS,5,647,,,,,,,"skipped (n_altered=5, n_wildtype=647; gate=20)"
+SIX1_SIX2,Transcription Reg (combined),False,OS,5,647,,,,,,,"skipped (n_altered=5, n_wildtype=647; gate=20)"
+SIX1,Transcription Reg,False,EFS,4,648,,,,,,,"skipped (n_altered=4, n_wildtype=648; gate=20)"
+SIX1,Transcription Reg,False,OS,4,648,,,,,,,"skipped (n_altered=4, n_wildtype=648; gate=20)"
+SIX2,Transcription Reg,False,EFS,1,651,,,,,,,"skipped (n_altered=1, n_wildtype=651; gate=20)"
+SIX2,Transcription Reg,False,OS,1,651,,,,,,,"skipped (n_altered=1, n_wildtype=651; gate=20)"
+DROSHA,RNA Processing,False,EFS,1,651,,,,,,,"skipped (n_altered=1, n_wildtype=651; gate=20)"
+DROSHA,RNA Processing,False,OS,1,651,,,,,,,"skipped (n_altered=1, n_wildtype=651; gate=20)"
+DGCR8,RNA Processing,False,EFS,0,652,,,,,,,"skipped (n_altered=0, n_wildtype=652; gate=20)"
+DGCR8,RNA Processing,False,OS,0,652,,,,,,,"skipped (n_altered=0, n_wildtype=652; gate=20)"
+CTNNB1,WNT Signaling,False,EFS,3,649,,,,,,,"skipped (n_altered=3, n_wildtype=649; gate=20)"
+CTNNB1,WNT Signaling,False,OS,3,649,,,,,,,"skipped (n_altered=3, n_wildtype=649; gate=20)"
+AMER1,WNT Signaling,False,EFS,1,651,,,,,,,"skipped (n_altered=1, n_wildtype=651; gate=20)"
+AMER1,WNT Signaling,False,OS,1,651,,,,,,,"skipped (n_altered=1, n_wildtype=651; gate=20)"
+WT1,WNT Signaling,False,EFS,5,647,,,,,,,"skipped (n_altered=5, n_wildtype=647; gate=20)"
+WT1,WNT Signaling,False,OS,5,647,,,,,,,"skipped (n_altered=5, n_wildtype=647; gate=20)"
+MLLT1,Chromatin Remodeling,False,EFS,0,652,,,,,,,"skipped (n_altered=0, n_wildtype=652; gate=20)"
+MLLT1,Chromatin Remodeling,False,OS,0,652,,,,,,,"skipped (n_altered=0, n_wildtype=652; gate=20)"
+NIPBL,PanCancer,False,EFS,0,652,,,,,,,"skipped (n_altered=0, n_wildtype=652; gate=20)"
+NIPBL,PanCancer,False,OS,0,652,,,,,,,"skipped (n_altered=0, n_wildtype=652; gate=20)"
+MDM4,PDMR Focus (p53 pathway),True,EFS,5,647,,,,,,,"skipped (n_altered=5, n_wildtype=647; gate=20)"
+MDM4,PDMR Focus (p53 pathway),True,OS,5,647,,,,,,,"skipped (n_altered=5, n_wildtype=647; gate=20)"
+MDM2,PDMR Focus (p53 pathway),True,EFS,1,651,,,,,,,"skipped (n_altered=1, n_wildtype=651; gate=20)"
+MDM2,PDMR Focus (p53 pathway),True,OS,1,651,,,,,,,"skipped (n_altered=1, n_wildtype=651; gate=20)"
+IGF2_CNA,PDMR Focus (imprinting/CNA),True,EFS,5,119,,,,,,,"skipped (n_altered=5, n_wildtype=119; gate=20)"
+IGF2_CNA,PDMR Focus (imprinting/CNA),True,OS,5,119,,,,,,,"skipped (n_altered=5, n_wildtype=119; gate=20)"
+IGF2_EXPR,PDMR Focus (imprinting/expr),True,EFS,10,115,,,,,,,"skipped (n_altered=10, n_wildtype=115; gate=20)"
+IGF2_EXPR,PDMR Focus (imprinting/expr),True,OS,10,115,,,,,,,"skipped (n_altered=10, n_wildtype=115; gate=20)"
+DROSHA_DGCR8_OR,RNA Processing Axis,False,EFS,1,651,,,,,,,"skipped (n_altered=1, n_wildtype=651; gate=20)"
+DROSHA_DGCR8_OR,RNA Processing Axis,False,OS,1,651,,,,,,,"skipped (n_altered=1, n_wildtype=651; gate=20)"
+WNT_AXIS_OR,WNT Axis,False,EFS,9,643,,,,,,,"skipped (n_altered=9, n_wildtype=643; gate=20)"
+WNT_AXIS_OR,WNT Axis,False,OS,9,643,,,,,,,"skipped (n_altered=9, n_wildtype=643; gate=20)"

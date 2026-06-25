@@ -1,0 +1,43 @@
+Gene,Pathway,Is PDMR Focus,Alteration Type,N altered,N wildtype,Freq %,Endpoint,Median altered (mo),Median wildtype (mo),Log-rank p,HR (multivariate),95% CI,Cox p,Significant?
+All Primary Genes (OR),All Primary Pathway Genes,False,Composite OR — all primary pathway genes,44,608,6.7,EFS,9.9,NR,< 0.001,4.21,[2.90–6.12],< 0.001,Yes
+MYCN/SIX1-SIX2 (OR),Transcription + Progenitor Axis,False,Composite OR — MYCN | SIX1/SIX2,23,629,3.5,EFS,10.5,NR,< 0.001,3.78,[2.31–6.19],< 0.001,Yes
+★ TP53/MDM4/MDM2 (OR),Cell Cycle + p53 Axis,True,Composite OR — TP53 | MDM4 | MDM2,21,631,3.2,OS,NR,NR,< 0.001,3.55,[1.85–6.83],< 0.001,Yes
+All Primary Genes (OR),All Primary Pathway Genes,False,Composite OR — all primary pathway genes,44,608,6.7,OS,NR,NR,< 0.001,3.38,[2.06–5.54],< 0.001,Yes
+MYCN/SIX1-SIX2 (OR),Transcription + Progenitor Axis,False,Composite OR — MYCN | SIX1/SIX2,23,629,3.5,OS,NR,NR,< 0.001,3.27,[1.70–6.31],< 0.001,Yes
+★ TP53/MDM4/MDM2 (OR),Cell Cycle + p53 Axis,True,Composite OR — TP53 | MDM4 | MDM2,21,631,3.2,EFS,14.2,NR,0.001,2.34,[1.33–4.11],0.003,Yes
+★ IGF2 (Expression),PDMR Focus (imprinting/expr),True,mRNA overexpression (z > 1.5),10,115,8.0,OS,NR,NR,—,—,—,—,Not tested
+★ IGF2 (Expression),PDMR Focus (imprinting/expr),True,mRNA overexpression (z > 1.5),10,115,8.0,EFS,NR,NR,—,—,—,—,Not tested
+★ IGF2 (CNA),PDMR Focus (imprinting/CNA),True,LOI / Gain (CNA ≥ +1),5,119,4.0,OS,NR,NR,—,—,—,—,Not tested
+★ IGF2 (CNA),PDMR Focus (imprinting/CNA),True,LOI / Gain (CNA ≥ +1),5,119,4.0,EFS,NR,NR,—,—,—,—,Not tested
+MYCN,Transcription Reg,False,Amplification (CNA ≥ +2),18,634,2.8,EFS,NR,NR,—,—,—,—,Not tested
+MYCN,Transcription Reg,False,Amplification (CNA ≥ +2),18,634,2.8,OS,NR,NR,—,—,—,—,Not tested
+TP53,Cell Cycle,False,Truncating mutation,15,637,2.3,EFS,NR,NR,—,—,—,—,Not tested
+TP53,Cell Cycle,False,Truncating mutation,15,637,2.3,OS,NR,NR,—,—,—,—,Not tested
+WNT Axis (OR),WNT Axis,False,Composite OR — CTNNB1 | AMER1 | WT1,9,643,1.4,EFS,NR,NR,—,—,—,—,Not tested
+WNT Axis (OR),WNT Axis,False,Composite OR — CTNNB1 | AMER1 | WT1,9,643,1.4,OS,NR,NR,—,—,—,—,Not tested
+WT1,WNT Signaling,False,Truncating mutation / Homodeletion (CNA −2),5,647,0.8,EFS,NR,NR,—,—,—,—,Not tested
+★ MDM4,PDMR Focus (p53 pathway),True,Amplification (CNA ≥ +2),5,647,0.8,OS,NR,NR,—,—,—,—,Not tested
+SIX1/SIX2,Transcription Reg (combined),False,"Hotspot mutation (Q177R), SIX1 or SIX2",5,647,0.8,EFS,NR,NR,—,—,—,—,Not tested
+SIX1/SIX2,Transcription Reg (combined),False,"Hotspot mutation (Q177R), SIX1 or SIX2",5,647,0.8,OS,NR,NR,—,—,—,—,Not tested
+WT1,WNT Signaling,False,Truncating mutation / Homodeletion (CNA −2),5,647,0.8,OS,NR,NR,—,—,—,—,Not tested
+★ MDM4,PDMR Focus (p53 pathway),True,Amplification (CNA ≥ +2),5,647,0.8,EFS,NR,NR,—,—,—,—,Not tested
+SIX1,Transcription Reg,False,Hotspot mutation (Q177R),4,648,0.6,EFS,NR,NR,—,—,—,—,Not tested
+SIX1,Transcription Reg,False,Hotspot mutation (Q177R),4,648,0.6,OS,NR,NR,—,—,—,—,Not tested
+CTNNB1,WNT Signaling,False,Hotspot mutation (codons 32/33/34/37/41/45),3,649,0.5,EFS,NR,NR,—,—,—,—,Not tested
+CTNNB1,WNT Signaling,False,Hotspot mutation (codons 32/33/34/37/41/45),3,649,0.5,OS,NR,NR,—,—,—,—,Not tested
+DROSHA/DGCR8 (OR),RNA Processing Axis,False,Composite OR — DROSHA | DGCR8,1,651,0.2,OS,NR,NR,—,—,—,—,Not tested
+DROSHA/DGCR8 (OR),RNA Processing Axis,False,Composite OR — DROSHA | DGCR8,1,651,0.2,EFS,NR,NR,—,—,—,—,Not tested
+SIX2,Transcription Reg,False,Hotspot mutation (Q177R),1,651,0.2,EFS,NR,NR,—,—,—,—,Not tested
+★ MDM2,PDMR Focus (p53 pathway),True,Amplification (CNA ≥ +2),1,651,0.2,OS,NR,NR,—,—,—,—,Not tested
+★ MDM2,PDMR Focus (p53 pathway),True,Amplification (CNA ≥ +2),1,651,0.2,EFS,NR,NR,—,—,—,—,Not tested
+DROSHA,RNA Processing,False,Truncating mutation,1,651,0.2,EFS,NR,NR,—,—,—,—,Not tested
+DROSHA,RNA Processing,False,Truncating mutation,1,651,0.2,OS,NR,NR,—,—,—,—,Not tested
+SIX2,Transcription Reg,False,Hotspot mutation (Q177R),1,651,0.2,OS,NR,NR,—,—,—,—,Not tested
+AMER1,WNT Signaling,False,Truncating mutation,1,651,0.2,OS,NR,NR,—,—,—,—,Not tested
+AMER1,WNT Signaling,False,Truncating mutation,1,651,0.2,EFS,NR,NR,—,—,—,—,Not tested
+NIPBL,PanCancer,False,Truncating mutation,0,652,0.0,EFS,NR,NR,—,—,—,—,Not tested
+MLLT1,Chromatin Remodeling,False,Truncating mutation,0,652,0.0,OS,NR,NR,—,—,—,—,Not tested
+MLLT1,Chromatin Remodeling,False,Truncating mutation,0,652,0.0,EFS,NR,NR,—,—,—,—,Not tested
+DGCR8,RNA Processing,False,Truncating mutation,0,652,0.0,OS,NR,NR,—,—,—,—,Not tested
+DGCR8,RNA Processing,False,Truncating mutation,0,652,0.0,EFS,NR,NR,—,—,—,—,Not tested
+NIPBL,PanCancer,False,Truncating mutation,0,652,0.0,OS,NR,NR,—,—,—,—,Not tested

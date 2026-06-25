@@ -1,0 +1,37 @@
+gene,is_pdmr_focus,cohort,endpoint,z_threshold,n_high,n_low,median_high,median_low,events_high,events_low,logrank_p,HR,CI_lower,CI_upper,cox_p,status
+MDM4,True,TARGET_2018,EFS,1.0,53,77,9.4,11.3,47.0,56.0,0.058562,1.399,0.944,2.072,0.094031,completed
+MDM2,True,TARGET_2018,OS,1.0,36,94,NR,NR,11.0,43.0,0.077184,0.551,0.284,1.07,0.078616,completed
+SIX2,False,TARGET_2018,OS,1.0,22,108,57.0,NR,12.0,42.0,0.122951,1.665,0.875,3.166,0.120359,completed
+MYCN,False,TARGET_2018,OS,1.0,29,101,42.0,NR,15.0,39.0,0.136492,1.569,0.864,2.851,0.138912,completed
+MLLT1,False,TARGET_2018,OS,1.0,20,110,34.0,NR,11.0,43.0,0.147655,1.615,0.822,3.177,0.164457,completed
+MLLT1,False,TARGET_2018,EFS,1.0,20,110,8.2,11.1,17.0,86.0,0.19899,1.354,0.802,2.285,0.256892,completed
+MYCN,False,TARGET_2018,EFS,1.0,29,101,8.2,11.7,23.0,80.0,0.223488,1.322,0.829,2.108,0.241516,completed
+MDM4,True,TARGET_2018,OS,1.0,53,77,86.0,NR,25.0,29.0,0.401187,1.256,0.735,2.145,0.404131,completed
+CTNNB1,False,TARGET_2018,OS,1.0,25,105,NR,NR,8.0,46.0,0.417914,0.743,0.35,1.58,0.440891,completed
+CTNNB1,False,TARGET_2018,EFS,1.0,25,105,8.5,11.1,17.0,86.0,0.484554,0.846,0.501,1.428,0.531343,completed
+MDM2,True,TARGET_2018,EFS,1.0,36,94,11.7,10.5,32.0,71.0,0.554395,1.077,0.704,1.649,0.731265,completed
+SIX2,False,TARGET_2018,EFS,1.0,22,108,8.1,11.1,17.0,86.0,0.603283,1.213,0.717,2.052,0.472792,completed
+TP53,False,TARGET_2018,EFS,1.0,18,112,,,,,,,,,,"skipped (n_high=18, n_low=112; gate=20/arm)"
+TP53,False,TARGET_2018,OS,1.0,18,112,,,,,,,,,,"skipped (n_high=18, n_low=112; gate=20/arm)"
+SIX1,False,TARGET_2018,EFS,1.0,16,114,,,,,,,,,,"skipped (n_high=16, n_low=114; gate=20/arm)"
+SIX1,False,TARGET_2018,OS,1.0,16,114,,,,,,,,,,"skipped (n_high=16, n_low=114; gate=20/arm)"
+DROSHA,False,TARGET_2018,EFS,1.0,12,118,,,,,,,,,,"skipped (n_high=12, n_low=118; gate=20/arm)"
+DROSHA,False,TARGET_2018,OS,1.0,12,118,,,,,,,,,,"skipped (n_high=12, n_low=118; gate=20/arm)"
+DGCR8,False,TARGET_2018,EFS,1.0,7,123,,,,,,,,,,"skipped (n_high=7, n_low=123; gate=20/arm)"
+DGCR8,False,TARGET_2018,OS,1.0,7,123,,,,,,,,,,"skipped (n_high=7, n_low=123; gate=20/arm)"
+WT1,False,TARGET_2018,EFS,1.0,13,117,,,,,,,,,,"skipped (n_high=13, n_low=117; gate=20/arm)"
+WT1,False,TARGET_2018,OS,1.0,13,117,,,,,,,,,,"skipped (n_high=13, n_low=117; gate=20/arm)"
+IGF2,True,TARGET_2018,EFS,1.5,10,120,,,,,,,,,,"skipped (n_high=10, n_low=120; gate=20/arm)"
+IGF2,True,TARGET_2018,OS,1.5,10,120,,,,,,,,,,"skipped (n_high=10, n_low=120; gate=20/arm)"
+TP53,False,TARGET_GDC,OS,1.0,8,46,,,,,,,,,,"skipped (n_high=8, n_low=46; gate=20/arm)"
+MYCN,False,TARGET_GDC,OS,1.0,10,44,,,,,,,,,,"skipped (n_high=10, n_low=44; gate=20/arm)"
+SIX1,False,TARGET_GDC,OS,1.0,5,49,,,,,,,,,,"skipped (n_high=5, n_low=49; gate=20/arm)"
+SIX2,False,TARGET_GDC,OS,1.0,11,43,,,,,,,,,,"skipped (n_high=11, n_low=43; gate=20/arm)"
+DROSHA,False,TARGET_GDC,OS,1.0,8,46,,,,,,,,,,"skipped (n_high=8, n_low=46; gate=20/arm)"
+DGCR8,False,TARGET_GDC,OS,1.0,5,49,,,,,,,,,,"skipped (n_high=5, n_low=49; gate=20/arm)"
+CTNNB1,False,TARGET_GDC,OS,1.0,6,48,,,,,,,,,,"skipped (n_high=6, n_low=48; gate=20/arm)"
+WT1,False,TARGET_GDC,OS,1.0,14,40,,,,,,,,,,"skipped (n_high=14, n_low=40; gate=20/arm)"
+MLLT1,False,TARGET_GDC,OS,1.0,8,46,,,,,,,,,,"skipped (n_high=8, n_low=46; gate=20/arm)"
+MDM4,True,TARGET_GDC,OS,1.0,5,49,,,,,,,,,,"skipped (n_high=5, n_low=49; gate=20/arm)"
+MDM2,True,TARGET_GDC,OS,1.0,4,50,,,,,,,,,,"skipped (n_high=4, n_low=50; gate=20/arm)"
+IGF2,True,TARGET_GDC,OS,1.5,5,49,,,,,,,,,,"skipped (n_high=5, n_low=49; gate=20/arm)"
