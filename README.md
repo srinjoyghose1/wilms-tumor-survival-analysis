@@ -1,5 +1,4 @@
 # Wilms Tumor — Genomic Survival Analysis
-### Clinical data analysis replicating the prostate cancer manuscript framework
 
 > **Disease:** Wilms tumor (nephroblastoma)
 > **Data source:** cBioPortal for Cancer Genomics via REST API
@@ -13,7 +12,7 @@
 
 ## Overview
 
-This analysis characterizes the prognostic impact of 14 recurrently mutated genes in Wilms tumor using the publicly available cBioPortal cohort `wt_target_2018_pub` (Pediatric Wilms' Tumor TARGET 2018, N=652). The methodology mirrors the prostate cancer manuscript framework: patients are stratified as genomically altered vs. wildtype per gene using mutation and copy-number data from cBioPortal, followed by Kaplan-Meier survival curves and multivariate Cox regression. Genes are organized by functional pathway (Cell Cycle, Transcription Regulation, RNA Processing, WNT Signaling, Chromatin Remodeling, PanCancer), and pathway-level OR-classifiers are used to aggregate rare variants that individually fall below the minimum sample-size threshold. An mRNA z-score analysis is run in parallel for the 125-patient expression subset.
+This analysis characterizes the prognostic impact of 14 recurrently mutated genes in Wilms tumor using the publicly available cBioPortal cohort `wt_target_2018_pub` (Pediatric Wilms' Tumor TARGET 2018, N=652). Patients are stratified as genomically altered vs. wildtype per gene using mutation and copy-number data retrieved from cBioPortal, followed by Kaplan-Meier survival curves and multivariate Cox regression. Genes are organized by functional pathway (Cell Cycle, Transcription Regulation, RNA Processing, WNT Signaling, Chromatin Remodeling, PanCancer), and pathway-level OR-classifiers are used to aggregate rare variants that individually fall below the minimum sample-size threshold. An mRNA z-score analysis is run in parallel for the 125-patient expression subset.
 
 ---
 
