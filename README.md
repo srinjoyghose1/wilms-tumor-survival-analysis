@@ -299,28 +299,6 @@ Log-rank p = 0.603 | HR = 1.21 [0.72-2.05] | Not significant
 
 ![SIX2 Expression EFS](wilms_survival/plots/png/KM_EXPR_SIX2_TARGET_2018_EFS.png)
 
----
-
-### Part 3 — Skipped Individual Gene Genomic Analyses
-
-All individual genes fell below the n >= 20 altered-patient threshold for KM analysis. No curves were generated for these genes.
-
-| Gene | n Altered | Reason |
-|---|---|---|
-| MYCN | 18 | 2 patients below the 20-patient minimum |
-| TP53 | 15 | Below 20-patient threshold |
-| MDM4 | 5 | Below 20-patient threshold |
-| SIX1/SIX2 | 5 | Below 20-patient threshold |
-| WT1 | 5 | Below 20-patient threshold |
-| SIX1 | 4 | Below 20-patient threshold |
-| CTNNB1 | 3 | Below 20-patient threshold |
-| MDM2 | 1 | Below 20-patient threshold |
-| SIX2 | 1 | Below 20-patient threshold |
-| DROSHA | 1 | Below 20-patient threshold |
-| AMER1 | 1 | Below 20-patient threshold |
-| DGCR8 | 0 | No qualifying alterations detected in this cohort |
-| MLLT1 | 0 | No qualifying alterations detected in this cohort |
-| NIPBL | 0 | No qualifying alterations detected in this cohort |
 
 ---
 
